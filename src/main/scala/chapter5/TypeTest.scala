@@ -6,3 +6,7 @@ package chapter5
 class TypeTest {
 
 }
+
+object TypeTest extends App {
+  println("Hello scala")
+}
