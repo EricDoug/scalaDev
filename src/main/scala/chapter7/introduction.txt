@@ -1,0 +1,43 @@
+第七章 内建控制结构
+7.1 if表达式
+var filename = "defalut.txt"
+if(!args.isEmplty)
+    filename = args(0)
+由于scala的if是有返回值的表达式,以上可改为
+var filename = if (!args.isEmpty) args(0) else "defalut.txt"
+
+等效推论(equational reasoning)
+
+7.2 while循环
+def gcdLoop(x : Long,y : Long) : Long = {
+var a = x
+var b = y
+while (a != 0){
+        val temp = a
+        a = b % a
+        b = temp
+    }
+}
+
+//使用函数式编程风格修改
+def gcd(x : Long,y:Long) : Long = if(y == 0) x else gcd(y,x % y)
+
+var line = ""
+do{
+    line = readLine()
+    println("Read: " + line)
+}while(line != "")
+while和do-while结构之所以被称为"循环"，而不是表达式，是因为它们不能产生有意义的结果。
+结果类型为Unit,是表明存在并且唯一存在类型Unit的值，称为unit value，写成().
+scala> def great() {println("hi")}
+great: ()Unit
+scala> great() == ()
+hi
+res2: Boolean = true
+
+7.3 for表达式
+a.枚举集合类
+val filesHere = (new java.io.File(".")).listFiles
+for(file <- filesHere)
+    println(file)
+to(包括上边界)  until（不包括上边界）
