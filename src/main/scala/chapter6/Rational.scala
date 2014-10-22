@@ -17,8 +17,21 @@ class Rational (n : Int,d : Int) {
   override def toString = numer + "/" + denom
   //加
   def +(that : Rational) : Rational = new Rational(numer * that.denom + that.numer * denom,denom * that.denom)
+  //使用隐式转换
+  def +(i : Int ) : Rational = new Rational(numer + i * denom,denom)
+  //减
+  def -(that : Rational) : Rational = new Rational(numer * that.denom - that.numer * denom,denom * that.denom)
+  //implict transformation
+  def -(i : Int) : Rational = new Rational(numer - i * denom,denom)
+
   //乘
   def *(that : Rational) : Rational = new Rational(numer * that.numer,denom * that.denom)
+  //implict transformation
+  def *(i : Int) : Rational = new Rational(numer * i,denom)
+  //除
+  def /(that : Rational) : Rational = new Rational(numer * that.denom,denom * that.numer)
+  //implict division
+  def /(i : Int) : Rational = new Rational(numer,denom * i)
   //判断大小
   def lessThan(that : Rational) = this.numer * that.denom < that.numer * this.denom
   //求最大
@@ -27,4 +40,11 @@ class Rational (n : Int,d : Int) {
   implicit def intToRational(x : Int) = new Rational(x)
   //greatest common divisor
   private def gcd(a : Int,b : Int) : Int = if(b == 0) a else gcd(b , a % b)
+}
+
+object Rational {
+  def main(args : Array[String]) {
+    val x = new Rational(2, 3)
+    println(x * x)
+  }
 }
