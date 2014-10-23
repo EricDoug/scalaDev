@@ -41,3 +41,34 @@ val filesHere = (new java.io.File(".")).listFiles
 for(file <- filesHere)
     println(file)
 to(包括上边界)  until（不包括上边界）
+
+b.过滤
+val filesHere = (new java.io.File(".")).listFiles
+for(file <- filesHere if file.isFile;if file.getName.endsWith(".scala"))
+    println(file)
+
+c.嵌套枚举
+d.流间变量绑定
+e.制造新的集合
+
+7.4 使用try表达式处理异常
+a.抛出异常
+throw new IllegalArgumentException
+
+b.捕获异常
+try...catch...
+
+c.finally子句
+注：出借模式(loan pattern)
+
+d.生成值
+
+7.5 匹配表达式
+
+7.6 不再使用break和continue
+尾调用优化查看8.9
+
+7.7 变量范围
+
+7.8 重构指令式风格的代码
+
