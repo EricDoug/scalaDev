@@ -1,7 +1,7 @@
-package chapter5
+package programminginscala.chapter5
 
 /**
- * Created by playcrab on 14-10-21.
+ * Created by EricDoug on 14-10-21.
  */
 class TypeTest {
 
