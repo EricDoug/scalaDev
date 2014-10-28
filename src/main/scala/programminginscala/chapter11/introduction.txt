@@ -1,0 +1,29 @@
+第 11 章 Scala的层级
+scala里，每个类都继承自通用的名为Any的超类。因为所有的类都是Any的子类，所以定义在Any中的方法就是"共同的"方法：他们可以被任何对象调用。
+scala还在底端定义了一些有趣的类，如Null和Nothing，扮演通用的子类。
+Any是所有其他类的超类,Nothing是所有其他类的子类。
+11.1 Scala的类层级
+根类Any有两个子类：AnyVal和AnyRef。
+AnyVal是scala里每个内建值类的父类。有9个这样的值类：Byte、Short、Char、Int、Long、Float、Double、Boolea和Unit。其中前8个都对应Java的基本类型，它们的值在运行时表示成Java的基本类型的值。
+scala里这些类的实例都写成字面量。例如，42是Int的实例，'x'是Char的实例，false是Boolean的实例。
+不能使用new创造这些类的实例，值类都被定义为既是抽象的又是final的。
+另一个值类，Unit，大约对应于Java的void类型；被用作不返回任何结果的方法的结果类型。Unit只有一个实例值，写成()。
+不同值类类型之间可以隐式地相互转换。
+Scala类与Java类的不同在于它们还继承自一个名为ScalaObject的特别的记号特质。通过ScalaObject包含的Scala编译器定义和实现的方法让Scala程序的执行更高效。
+$tag:在内部使用以加速模式匹配。
+
+11.2 原始类型是如何实现的
+基本类型与引用类型的差别。
+
+
+11.3 底层类型
+底部包括两个类scala.Null 和 scala.Nothing。
+Null类是null引用对象的类型,它是每个引用类的子类。
+Nothing类型在scala的类层级的最低端，它是任何其他类型的子类型。然而，根本没有这个类型的任何值。
+Nothing的一个用处是它表明了不正常的终止。
+ def divide(x : Int,y : Int) : Int = {
+    if(y != 0) x / y
+      else error("can't divide by zero")
+  }
+
+  if分支，x / y，类型为Int，而"else"分支，调用了error，类型为Nothing。因为Nothing是Int的子类型，所以整个状态语句的类型是Int。
