@@ -1,0 +1,39 @@
+<component name="libraryTable">
+  <library name="Python 2.7.5 (/usr/bin/python) interpreter library">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/tornado-3.1-py2.7.egg" />
+      <root url="jar://$PROJECT_DIR$/lib/MySQL_python-1.2.3-py2.7-macosx-10.9-intel.egg!/" />
+      <root url="jar://$PROJECT_DIR$/lib/SQLAlchemy-0.8.1-py2.7-macosx-10.9-intel.egg!/" />
+      <root url="file://$PROJECT_DIR$/lib/simplejson-3.6.3-py2.7-macosx-10.9-intel.egg" />
+      <root url="file://$PROJECT_DIR$/lib/pip-1.4.1-py2.7.egg" />
+      <root url="file://$PROJECT_DIR$/lib/python2.7" />
+      <root url="file://$PROJECT_DIR$/lib/plat-darwin" />
+      <root url="file://$PROJECT_DIR$/lib/plat-mac" />
+      <root url="file://$PROJECT_DIR$/lib/lib-scriptpackages" />
+      <root url="file://$PROJECT_DIR$/lib/python" />
+      <root url="file://$PROJECT_DIR$/lib/lib-tk" />
+      <root url="file://$PROJECT_DIR$/lib/lib-dynload" />
+      <root url="file://$PROJECT_DIR$/lib/PyObjC" />
+      <root url="file://$PROJECT_DIR$/lib/site-packages" />
+      <root url="file://$PROJECT_DIR$/lib/348993582" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/lib/tornado-3.1-py2.7.egg" />
+      <root url="jar://$PROJECT_DIR$/lib/MySQL_python-1.2.3-py2.7-macosx-10.9-intel.egg!/" />
+      <root url="jar://$PROJECT_DIR$/lib/SQLAlchemy-0.8.1-py2.7-macosx-10.9-intel.egg!/" />
+      <root url="file://$PROJECT_DIR$/lib/simplejson-3.6.3-py2.7-macosx-10.9-intel.egg" />
+      <root url="file://$PROJECT_DIR$/lib/pip-1.4.1-py2.7.egg" />
+      <root url="file://$PROJECT_DIR$/lib/python2.7" />
+      <root url="file://$PROJECT_DIR$/lib/plat-darwin" />
+      <root url="file://$PROJECT_DIR$/lib/plat-mac" />
+      <root url="file://$PROJECT_DIR$/lib/lib-scriptpackages" />
+      <root url="file://$PROJECT_DIR$/lib/python" />
+      <root url="file://$PROJECT_DIR$/lib/lib-tk" />
+      <root url="file://$PROJECT_DIR$/lib/lib-dynload" />
+      <root url="file://$PROJECT_DIR$/lib/PyObjC" />
+      <root url="file://$PROJECT_DIR$/lib/site-packages" />
+      <root url="file://$PROJECT_DIR$/lib/348993582" />
+    </SOURCES>
+  </library>
+</component>
