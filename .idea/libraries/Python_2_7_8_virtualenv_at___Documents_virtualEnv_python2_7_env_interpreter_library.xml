@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Python 2.7.8 virtualenv at ~/Documents/virtualEnv/python2.7_env interpreter library">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../virtualEnv/python2.7_env/lib/python2.7" />
+      <root url="file://$PROJECT_DIR$/../../virtualEnv/python2.7_env/lib/python2.7/lib-dynload" />
+      <root url="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7" />
+      <root url="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin" />
+      <root url="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk" />
+      <root url="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac" />
+      <root url="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages" />
+      <root url="file://$PROJECT_DIR$/../../virtualEnv/python2.7_env/lib/python2.7/site-packages" />
+      <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/python_stubs/570031335" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../virtualEnv/python2.7_env/lib/python2.7" />
+      <root url="file://$PROJECT_DIR$/../../virtualEnv/python2.7_env/lib/python2.7/lib-dynload" />
+      <root url="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7" />
+      <root url="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin" />
+      <root url="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk" />
+      <root url="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac" />
+      <root url="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages" />
+      <root url="file://$PROJECT_DIR$/../../virtualEnv/python2.7_env/lib/python2.7/site-packages" />
+      <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/python_stubs/570031335" />
+    </SOURCES>
+  </library>
+</component>
